@@ -40,4 +40,6 @@
                     operator: "Equal"
                     value: "value1"
                     effect: "NoExecute"
-        Also, rember that we should add NodeSelector in the pod, if we want to schedule it on to a tained node
+        Also, remember that we should add NodeSelector in the pod, if we want to schedule it on to a tained node
+
+        
