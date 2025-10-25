@@ -1,4 +1,4 @@
-# In this repo, we are using statefulSets and creating RoboShop Databases(mysql, redis,rabbitmq and mongodb)
+#### In this repo, we are using statefulSets and creating RoboShop Databases(mysql, redis,rabbitmq and mongodb)
 
     Create a namespace
     create a StorageClass
@@ -15,13 +15,13 @@
     And Create the remaining services like Cart, Catalogue, frontend, payment, shipping, user etc
     And all these services will have configmap, service, hpa and deployment yaml - this file will have replicaset and pods
 
-# Taints and Tolerations
+#### Taints and Tolerations
 
     NodeSelector:-
         If we want, we can schedule a particular pod on to a specific node by using NodeSelector
         In the Pod defenition file we should use a NodeSelector and this NodeSelector is a label on that respective node(kubectl get nodes --show-labels)
         Here for this kind of pods, we use ImagePullPolicy 
-            this is set to ImagePullPolicy: Always in a Pod
+            ImagePullPolicy: Always is used in a Pod
             This we have other than Always value, node cannot pull the images from the DockerHub if we did any changes to the code and built a new image
             Other ImagePullPolicies are IfNeverPresent and Never
 
