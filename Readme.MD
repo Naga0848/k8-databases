@@ -1,4 +1,4 @@
-#### In this repo, we are using statefulSets and creating RoboShop Databases(mysql, redis,rabbitmq and mongodb)
+#### In this repo, we are understand about volumes and we are using statefulSets and creating RoboShop Databases(mysql, redis,rabbitmq and mongodb)
 
     Create a namespace
     create a StorageClass
