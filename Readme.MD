@@ -15,7 +15,7 @@
     And Create the remaining services like Cart, Catalogue, frontend, payment, shipping, user etc
     And all these services will have configmap, service, hpa and deployment yaml - this file will have replicaset and pods
 
-#### Taints and Tolerations
+#### Understanding Taints and Tolerations
 
     NodeSelector:-
         If we want, we can schedule a particular pod on to a specific node by using NodeSelector
